@@ -1,4 +1,4 @@
-package com.programmingtechie.productservice;
+package com.collicode.productservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

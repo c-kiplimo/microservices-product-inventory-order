@@ -1,7 +1,7 @@
-package com.programmingtechie.productservice.util;
+package com.collicode.productservice.util;
 
-import com.programmingtechie.productservice.model.Product;
-import com.programmingtechie.productservice.repository.ProductRepository;
+import com.collicode.productservice.repository.ProductRepository;
+import com.collicode.productservice.model.Product;
 import lombok.RequiredArgsConstructor;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;

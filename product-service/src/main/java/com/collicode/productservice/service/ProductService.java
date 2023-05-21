@@ -1,9 +1,9 @@
-package com.programmingtechie.productservice.service;
+package com.collicode.productservice.service;
 
-import com.programmingtechie.productservice.dto.ProductRequest;
-import com.programmingtechie.productservice.dto.ProductResponse;
-import com.programmingtechie.productservice.model.Product;
-import com.programmingtechie.productservice.repository.ProductRepository;
+import com.collicode.productservice.dto.ProductRequest;
+import com.collicode.productservice.dto.ProductResponse;
+import com.collicode.productservice.repository.ProductRepository;
+import com.collicode.productservice.model.Product;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;

@@ -1,8 +1,8 @@
-package com.programmingtechie.productservice;
+package com.collicode.productservice;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.programmingtechie.productservice.dto.ProductRequest;
-import com.programmingtechie.productservice.repository.ProductRepository;
+import com.collicode.productservice.dto.ProductRequest;
+import com.collicode.productservice.repository.ProductRepository;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
