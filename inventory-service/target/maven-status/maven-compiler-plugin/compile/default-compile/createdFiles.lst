@@ -1,0 +1,8 @@
+com/collicode/inventoryservice/dto/InventoryResponse.class
+com/collicode/inventoryservice/util/DataLoader.class
+com/collicode/inventoryservice/InventoryServiceApplication.class
+com/collicode/inventoryservice/service/InventoryService.class
+com/collicode/inventoryservice/dto/InventoryResponse$InventoryResponseBuilder.class
+com/collicode/inventoryservice/controller/InventoryController.class
+com/collicode/inventoryservice/repository/InventoryRepository.class
+com/collicode/inventoryservice/model/Inventory.class

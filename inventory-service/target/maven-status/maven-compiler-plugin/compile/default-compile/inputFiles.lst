@@ -1,0 +1,7 @@
+/home/collins/Desktop/Java/springboot microservices/inventory-service/src/main/java/com/collicode/inventoryservice/repository/InventoryRepository.java
+/home/collins/Desktop/Java/springboot microservices/inventory-service/src/main/java/com/collicode/inventoryservice/service/InventoryService.java
+/home/collins/Desktop/Java/springboot microservices/inventory-service/src/main/java/com/collicode/inventoryservice/util/DataLoader.java
+/home/collins/Desktop/Java/springboot microservices/inventory-service/src/main/java/com/collicode/inventoryservice/controller/InventoryController.java
+/home/collins/Desktop/Java/springboot microservices/inventory-service/src/main/java/com/collicode/inventoryservice/dto/InventoryResponse.java
+/home/collins/Desktop/Java/springboot microservices/inventory-service/src/main/java/com/collicode/inventoryservice/model/Inventory.java
+/home/collins/Desktop/Java/springboot microservices/inventory-service/src/main/java/com/collicode/inventoryservice/InventoryServiceApplication.java
