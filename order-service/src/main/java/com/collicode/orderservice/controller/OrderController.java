@@ -22,10 +22,15 @@ public class OrderController {
 //    @CircuitBreaker(name = "inventory", fallbackMethod = "fallbackMethod")
 //    @TimeLimiter(name = "inventory")
 //    @Retry(name = "inventory")
-    public CompletableFuture<String> placeOrder(@RequestBody OrderRequest orderRequest) {
-        log.info("Placing Order");
-        return CompletableFuture.supplyAsync(() -> orderService.placeOrder(orderRequest));
+//    public CompletableFuture<String> placeOrder(@RequestBody OrderRequest orderRequest) {
+//        log.info("Placing Order");
+//        return CompletableFuture.supplyAsync(() -> orderService.placeOrder(orderRequest));
+//    }
+    public  String placeOrder(@RequestBody OrderRequest orderRequest){
+        orderService.placeOrder(orderRequest);
+        return "Order Placed Successfully";
     }
+
 
     public CompletableFuture<String> fallbackMethod(OrderRequest orderRequest, RuntimeException runtimeException) {
         log.info("Cannot Place Order Executing Fallback logic");
