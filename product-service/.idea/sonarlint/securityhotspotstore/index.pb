@@ -1,3 +1,19 @@
 
 |
 Lsrc/main/java/com/collicode/productservice/repository/ProductRepository.java,1/4/14f3b955ccd5a94efa0dab79d1fbc146944e133e
+m
+=src/main/java/com/collicode/productservice/model/Product.java,e/9/e9175ac2f6bfee9e63455b6ead2da3e0ef0d048f
+y
+Isrc/main/java/com/collicode/productservice/ProductServiceApplication.java,f/4/f465697f5b748d50c78684439af05da7e1eec6a5
+v
+Fsrc/main/java/com/collicode/productservice/service/ProductService.java,1/4/145238ccbd2335d00b9ab6a8ab61af55f0d8ba2f
+7
+pom.xml,4/4/442292b8a7efeabbe4cc176709b833b1792140ec
+s
+Csrc/main/java/com/collicode/productservice/dto/ProductResponse.java,e/c/ec0bfb6b775f54c0a24473ffe0ea2cc76e555cfd
+r
+Bsrc/main/java/com/collicode/productservice/dto/ProductRequest.java,6/e/6e2ab4d76c27d0560aa11279b1c74de513ccfe70
+|
+Lsrc/main/java/com/collicode/productservice/controller/ProductController.java,b/3/b34b8489f1e869a1956303a109eea4f4368e26cb
+~
+Nsrc/test/java/com/collicode/productservice/ProductServiceApplicationTests.java,6/3/633b90bdb2e678af3b897e34162aa8ed6304401e
