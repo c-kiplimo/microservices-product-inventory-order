@@ -1,0 +1,11 @@
+com/collicode/orderservice/dto/InventoryResponse$InventoryResponseBuilder.class
+com/collicode/orderservice/controller/OrderController.class
+com/collicode/orderservice/model/OrderLineItems.class
+com/collicode/orderservice/dto/OrderRequest.class
+com/collicode/orderservice/service/OrderService.class
+com/collicode/orderservice/event/OrderPlacedEvent.class
+com/collicode/orderservice/model/Order.class
+com/collicode/orderservice/dto/OrderLineItemsDto.class
+com/collicode/orderservice/OrderServiceApplication.class
+com/collicode/orderservice/dto/InventoryResponse.class
+com/collicode/orderservice/repository/OrderRepository.class

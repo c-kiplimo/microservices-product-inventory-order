@@ -1,0 +1,13 @@
+/home/collins/Desktop/Java/springboot microservices/order-service/src/main/java/com/collicode/orderservice/config/WebClientConfig.java
+/home/collins/Desktop/Java/springboot microservices/order-service/src/main/java/com/collicode/orderservice/dto/OrderRequest.java
+/home/collins/Desktop/Java/springboot microservices/order-service/src/main/java/com/collicode/orderservice/controller/OrderController.java
+/home/collins/Desktop/Java/springboot microservices/order-service/src/main/java/com/collicode/orderservice/service/OrderService.java
+/home/collins/Desktop/Java/springboot microservices/order-service/src/main/java/com/collicode/orderservice/model/OrderLineItems.java
+/home/collins/Desktop/Java/springboot microservices/order-service/src/main/java/com/collicode/orderservice/config/ManualConfiguration.java
+/home/collins/Desktop/Java/springboot microservices/order-service/src/main/java/com/collicode/orderservice/event/OrderPlacedEvent.java
+/home/collins/Desktop/Java/springboot microservices/order-service/src/main/java/com/collicode/orderservice/dto/InventoryResponse.java
+/home/collins/Desktop/Java/springboot microservices/order-service/src/main/java/com/collicode/orderservice/dto/OrderLineItemsDto.java
+/home/collins/Desktop/Java/springboot microservices/order-service/src/main/java/com/collicode/orderservice/repository/OrderRepository.java
+/home/collins/Desktop/Java/springboot microservices/order-service/src/main/java/com/collicode/orderservice/model/Order.java
+/home/collins/Desktop/Java/springboot microservices/order-service/src/main/java/com/collicode/orderservice/listener/OrderPlacedEventListener.java
+/home/collins/Desktop/Java/springboot microservices/order-service/src/main/java/com/collicode/orderservice/OrderServiceApplication.java
