@@ -1,0 +1,8 @@
+/home/collins/Desktop/Java/springboot microservices/product-service/src/main/java/com/collicode/productservice/repository/ProductRepository.java
+/home/collins/Desktop/Java/springboot microservices/product-service/src/main/java/com/collicode/productservice/ProductServiceApplication.java
+/home/collins/Desktop/Java/springboot microservices/product-service/src/main/java/com/collicode/productservice/dto/ProductResponse.java
+/home/collins/Desktop/Java/springboot microservices/product-service/src/main/java/com/collicode/productservice/util/DataLoader.java
+/home/collins/Desktop/Java/springboot microservices/product-service/src/main/java/com/collicode/productservice/service/ProductService.java
+/home/collins/Desktop/Java/springboot microservices/product-service/src/main/java/com/collicode/productservice/dto/ProductRequest.java
+/home/collins/Desktop/Java/springboot microservices/product-service/src/main/java/com/collicode/productservice/controller/ProductController.java
+/home/collins/Desktop/Java/springboot microservices/product-service/src/main/java/com/collicode/productservice/model/Product.java

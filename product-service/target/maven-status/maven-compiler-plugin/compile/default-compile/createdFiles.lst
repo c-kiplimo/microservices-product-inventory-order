@@ -1,0 +1,11 @@
+com/collicode/productservice/ProductServiceApplication.class
+com/collicode/productservice/dto/ProductResponse.class
+com/collicode/productservice/dto/ProductRequest.class
+com/collicode/productservice/controller/ProductController.class
+com/collicode/productservice/dto/ProductRequest$ProductRequestBuilder.class
+com/collicode/productservice/dto/ProductResponse$ProductResponseBuilder.class
+com/collicode/productservice/model/Product$ProductBuilder.class
+com/collicode/productservice/service/ProductService.class
+com/collicode/productservice/util/DataLoader.class
+com/collicode/productservice/repository/ProductRepository.class
+com/collicode/productservice/model/Product.class
