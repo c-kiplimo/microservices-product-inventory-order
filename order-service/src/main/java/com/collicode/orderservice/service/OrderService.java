@@ -13,8 +13,7 @@ import org.springframework.context.ApplicationEventPublisher;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.reactive.function.client.WebClient;
-import io.micrometer.observation.Observation;
-import io.micrometer.observation.ObservationRegistry;
+
 
 import java.util.Arrays;
 import java.util.List;
@@ -29,7 +28,6 @@ public class OrderService {
 
     private final OrderRepository orderRepository;
     private final WebClient.Builder webClientBuilder;
-    private final ObservationRegistry observationRegistry;
    private final ApplicationEventPublisher applicationEventPublisher;
 
     public String placeOrder(OrderRequest orderRequest) {
@@ -55,10 +53,10 @@ public class OrderService {
                     .collect(Collectors.toList());
 
             // Call Inventory Service and place the order if the product is in stock
-        Observation inventoryServiceObservation = Observation.createNotStarted("inventory-service-lookup",
-                this.observationRegistry);
-        inventoryServiceObservation.lowCardinalityKeyValue("call", "inventory-service");
-        return inventoryServiceObservation.observe(() -> {
+//        Observation inventoryServiceObservation = Observation.createNotStarted("inventory-service-lookup",
+//                this.observationRegistry);
+//        inventoryServiceObservation.lowCardinalityKeyValue("call", "inventory-service");
+//        return inventoryServiceObservation.observe(() -> {
             InventoryResponse[] inventoryResponseArray = webClientBuilder.build().get()
                     .uri("http://inventory-service/api/inventory",
                             uriBuilder -> uriBuilder.queryParam("skuCode", skuCodes).build())
@@ -77,7 +75,7 @@ public class OrderService {
             } else {
                 throw new IllegalArgumentException("Product is not in stock, please try again later");
             }
-        } );
+
     }
 
 

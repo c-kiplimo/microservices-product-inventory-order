@@ -27,7 +27,7 @@
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
-        <spring-cloud.version>2021.0.5</spring-cloud.version>
+        <spring-cloud.version>2021.0.7</spring-cloud.version>
         <testcontainers.version>1.17.6</testcontainers.version>
     </properties>
 
